@@ -1,0 +1,36 @@
+@import "global";
+
+
+#header {
+
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  .navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    &--nav {
+      padding-left: 25px;
+
+      a {
+        font-weight: 400;
+        font-size: 18px;
+        //color: #FFFFFF;
+        color: black;
+        padding: 0 27px;
+      }
+    }
+  }
+}
+
+#hero {
+  background: url("/img/hero.png") no-repeat center/cover;
+  min-height: 100vh;
+
+  .hero {
+
+  }
+}

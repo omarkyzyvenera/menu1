@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+#header .navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#header .navbar--nav {
+  padding-left: 25px;
+}
+#header .navbar--nav a {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  padding: 0 27px;
+}
+
+#hero {
+  background: url("/img/hero.png") no-repeat center/cover;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
