@@ -1,4 +1,6 @@
 @import "global";
+@import "mixsin";
+@import "varables";
 
 
 #header {
@@ -31,6 +33,141 @@
   min-height: 100vh;
 
   .hero {
+    padding-top: 150px;
 
+    h1 {
+      font-weight: 700;
+      font-size: 36px;
+      color: #FFFFFF;
+
+      span {
+        color: orange;
+      }
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      color: #FFFFFF;
+      padding: 39px 0 89px 0;
+
+      span {
+        color: orange;
+      }
+    }
+
+    &--btn {
+      display: flex;
+
+      &__one {
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+        background: #FF9900;
+        border-radius: 60px 0 0 60px;
+        border: 2px solid #FF9900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 13px 25px;
+
+        ion-icon {
+          padding-left: 15px;
+          font-size: 25px;
+        }
+      }
+
+      &__two {
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+        background: none;
+        border-radius: 0 60px 60px 0;
+        border: 2px solid #FF9900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 13px 25px;
+
+        ion-icon {
+          padding-left: 15px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+#our{
+  background:url("/img/our.png") no-repeat center/cover;
+  .our {
+    &--block{
+      background: radial-gradient(100% 100% at 0% 0%, rgba(99, 99, 99, 0.58) 0%, rgba(99, 99, 99, 0.58) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      backdrop-filter: blur(5px);
+      border-radius: 20px;
+      //&--img{
+      //  width: 193px;
+      //  height: 193px;
+      //}
+    }
+    &--title {
+      font-weight: 700;
+      font-size: 36px;
+      //color: #FFFFFF;
+      color: black;
+    }
+  }
+
+    &--block {
+      width: 241px;
+      height: 267px;
+      background: radial-gradient(100% 100% at 0% 0%, rgba(99, 99, 99, 0.58) 0%, rgba(99, 99, 99, 0.58) 100%);
+      backdrop-filter: blur(5px);
+      border-radius: 20px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        //color: #FFFFFF;
+        color: black;
+    }
+
+    p {
+      width: 185px;
+      height: 45px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      color: #FFFFFF;
+      //color: black;
+      padding: 8px 0;
+    }
+    &__input {
+      display: flex;
+      align-items: center;
+      label {
+        width: 14px;
+        height: 14px;
+        border: 1px solid #FFFFFF;
+      }
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      //color: #FFFFFF;
+      color: black;
+    }
+      h3 {
+        letter-spacing: 13px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        //color: #FFFFFF;
+        color: #000;
+      }
   }
 }
